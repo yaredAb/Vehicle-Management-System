@@ -1,0 +1,123 @@
+.wrapper{
+    height: 100vh;
+}
+.header{
+    background-color: #08549c;
+    padding: 25px;
+    display: flex;
+    gap: 40px;
+    font-size: 18px;
+}
+.header h2{
+    color: #fff;
+}
+
+.main-content{
+    display: flex;
+    margin: 20px 10px;
+    gap: 10px;
+}
+.main-content form{
+    width: 40%;
+    background-color: #e4e4e4;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+form h1{
+    text-align: center;
+}
+.main-content form select, .main-content form input{
+    font-size: 14px;
+    padding: 10px;
+    border: 1px solid #333;
+}
+input:focus, select:focus{
+    outline: none;
+}
+.main-content button{
+    padding: 10px 0;
+    border: none;
+    background-color: #08549c;
+    color: #fff;
+}
+.main-content button:hover{
+    background-color: #043664; 
+}
+
+.main-content .table{
+    width: 100%;
+    background-color: #e4e4e4;
+    margin: 0;
+}
+.table table{
+    width: 100%;
+}
+table .table-header{
+    background-color: #08549c;
+    color: #fff;
+}
+table tr{
+    margin-top: 10px;  
+}
+table th, table td{
+    column-span: 1;
+    text-align: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+table td{
+    background-color: #e4e4e4;
+}
+td .edit, td .delete{
+    padding: 5px;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+td .edit{
+    background-color: #08549c;
+}
+td .delete{
+    background-color: rgb(247, 103, 103);
+    margin-left: 10px;
+}
+
+
+.number-info{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.number-info .card{
+    width: 300px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.card-1{
+    background-color: #08549c;
+    color: #fff;
+}
+.card-2{
+    background-color: #e4e4e4;
+    color: #08549c;
+}
+.card-3{
+    background-color: rgb(247, 103, 103);
+    color: #fff;
+}
+.card .card-title{
+    font-size: 50px;
+}
+
+.error-container{
+    background-color: rgb(248, 211, 211);
+    border: 1px solid red;
+}
+
+.error-message{
+    color: red;
+    padding: 5px;
+}
